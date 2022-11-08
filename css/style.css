@@ -1,0 +1,39 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.nav-links {
+    display: flex; /*pone la lista en linea horizontal*/
+    list-style: none; /*quita las viñetas*/
+    align-items: center;
+}
+
+.nav-links li {
+    margin-right: 10px;
+}
+
+.nav-links li a {
+    color: beige; /*color links enlaces de la lista*/
+    text-decoration: none; /*elimina el subrrayado*/
+}
+
+.btn {
+    background-color: aqua;
+    border: 2px;
+    -webkit-box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow:    2px 2px 0px 0px rgba(0, 0, 0, 0.75);
+    box-shadow:         2px 2px 0px 0px rgba(0, 0, 0, 0.75);
+    padding: 10px 5px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
